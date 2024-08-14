@@ -22,7 +22,7 @@ router = Router(
     model_list=[
         {
             "model_name": DEFAULT_MODEL,
-            "litellm_params": {
+            "capx_params": {
                 "model": DEFAULT_MODEL,
                 "api_key": ANTHROPIC_API_KEY,
             },
